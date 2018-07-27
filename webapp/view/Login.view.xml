@@ -1,0 +1,32 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="ns.TestCourier.controller.Login"
+	xmlns:html="http://www.w3.org/1999/xhtml" xmlns:f="sap.ui.layout.form">
+	<App>
+		<pages>
+			<Page title="{i18n>title}" showNavButton="true" navButtonPress="onNavBack">
+				<content>
+					<f:Form editable="true" class="centerposition">
+						<f:layout>
+							<f:ResponsiveGridLayout singleContainerFullSize="true"/>
+						</f:layout>
+						<f:formContainers>
+							<f:FormContainer>
+								<f:formElements>
+									<f:FormElement>
+										<Input id="email" type="Text" required="true" placeholder="E-MAIL ID / Mobile"
+										valueState="None" valueStateText="Invalid Email" />
+									</f:FormElement>
+									<f:FormElement>
+										<Input id="password" type="Password" required="true" placeholder="Password"/>
+									</f:FormElement>
+									<f:FormElement>
+										<Button id="login" text="Login" press="onLogin" icon="sap-icon://enter-more" width="200px" type="Emphasized"/>
+									</f:FormElement>
+								</f:formElements>
+							</f:FormContainer>
+						</f:formContainers>
+					</f:Form>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
