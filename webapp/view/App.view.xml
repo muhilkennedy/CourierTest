@@ -16,7 +16,7 @@
 				<footer>
 						<Toolbar>
 							<ToolbarSpacer/>
-							<Button type="Default" text="Policies" press="onPolicyCheck" icon="sap-icon://drill-down" />
+							<Button type="Default" text="Policies!!" press="onPolicyCheck" icon="sap-icon://drill-down" />
 						</Toolbar>
 				</footer>
 			</Page>
